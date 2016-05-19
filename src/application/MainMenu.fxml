@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: #FFFF99;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Button layoutX="75.0" layoutY="118.0" lineSpacing="10.0" mnemonicParsing="false" onAction="#btnDicesClicked" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #CCFF66;" text="Roll Dice" textFill="#1a0dd0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="271.0" layoutY="118.0" lineSpacing="10.0" mnemonicParsing="false" onAction="#btnEnterScoreClicked" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: #CCFF66;" text="Enter Score" textFill="#1a0dd0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="26.0" prefHeight="92.0" prefWidth="466.0" text="CATAN HELPER" textFill="#1a0dd0">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="319.0" text="Copyright Piotr Baczyński-Kaczmarek" />
+   </children>
+</AnchorPane>

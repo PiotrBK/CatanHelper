@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: #FFFFCC;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StatisticsController">
+   <children>
+      <VBox layoutX="-3.0" prefHeight="350.0" prefWidth="100.0">
+         <children>
+            <HBox prefHeight="27.0" prefWidth="100.0">
+               <children>
+                  <Label prefHeight="27.0" prefWidth="200.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children></HBox>
+            <HBox prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" text="&quot;2&quot;   ">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="40.0" prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" text="&quot;3&quot;   ">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="70.0" prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" text="&quot;4&quot;   ">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="100.0" prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" text="&quot;5&quot;   ">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="130.0" prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" text="&quot;6&quot;   ">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="160.0" prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" text="&quot;7&quot;   ">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="190.0" prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" text="&quot;8&quot;   ">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="220.0" prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" text="&quot;9&quot;   ">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="250.0" prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" text="&quot;10&quot;  ">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="280.0" prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" text="&quot;11&quot;  ">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="310.0" prefHeight="30.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" text="&quot;12&quot;  ">
+                     <font>
+                        <Font size="19.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="97.0" prefHeight="350.0" prefWidth="400.0">
+         <children>
+            <HBox prefHeight="30.0" prefWidth="400.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="29.0" prefWidth="191.0" text="Statistics:" textFill="#3134e0">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="400.0">
+               <children>
+                  <ProgressBar fx:id="bar2" prefHeight="29.0" prefWidth="280.0" progress="0.16" />
+                  <TextField fx:id="field2" editable="false" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #FFFFCC; -fx-max-height: 30;">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></TextField>
+               </children></HBox>
+            <HBox layoutX="10.0" layoutY="40.0" prefHeight="30.0" prefWidth="400.0">
+               <children>
+                  <ProgressBar fx:id="bar3" prefHeight="29.0" prefWidth="280.0" progress="0.29" />
+                  <TextField fx:id="field3" editable="false" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #FFFFCC; -fx-max-height: 30;">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TextField>
+               </children></HBox>
+            <HBox layoutX="10.0" layoutY="70.0" prefHeight="30.0" prefWidth="400.0">
+               <children>
+                  <ProgressBar fx:id="bar4" prefHeight="30.0" prefWidth="280.0" progress="0.37" />
+                  <TextField fx:id="field4" editable="false" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #FFFFCC; -fx-max-height: 30;">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TextField>
+               </children></HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="400.0">
+               <children>
+                  <ProgressBar fx:id="bar5" prefHeight="30.0" prefWidth="280.0" progress="0.55" />
+                  <TextField fx:id="field5" editable="false" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #FFFFCC; -fx-max-height: 30;">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TextField>
+               </children></HBox>
+            <HBox layoutX="10.0" layoutY="40.0" prefHeight="30.0" prefWidth="400.0">
+               <children>
+                  <ProgressBar fx:id="bar6" prefHeight="30.0" prefWidth="280.0" progress="0.66" />
+                  <TextField fx:id="field6" editable="false" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #FFFFCC; -fx-max-height: 30;">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TextField>
+               </children></HBox>
+            <HBox layoutX="10.0" layoutY="70.0" prefHeight="30.0" prefWidth="400.0">
+               <children>
+                  <ProgressBar fx:id="bar7" prefHeight="30.0" prefWidth="280.0" progress="0.76" />
+                  <TextField fx:id="field7" editable="false" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #FFFFCC; -fx-max-height: 30;">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TextField>
+               </children></HBox>
+            <HBox layoutX="10.0" layoutY="100.0" prefHeight="30.0" prefWidth="400.0">
+               <children>
+                  <ProgressBar fx:id="bar8" prefHeight="30.0" prefWidth="280.0" progress="0.66" />
+                  <TextField fx:id="field8" editable="false" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #FFFFCC; -fx-max-height: 30;">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TextField>
+               </children></HBox>
+            <HBox layoutX="10.0" layoutY="130.0" prefHeight="30.0" prefWidth="400.0">
+               <children>
+                  <ProgressBar fx:id="bar9" prefHeight="30.0" prefWidth="280.0" progress="0.55" />
+                  <TextField fx:id="field9" editable="false" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #FFFFCC; -fx-max-height: 30;">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TextField>
+               </children></HBox>
+            <HBox layoutX="10.0" layoutY="160.0" prefHeight="30.0" prefWidth="400.0">
+               <children>
+                  <ProgressBar fx:id="bar10" prefHeight="30.0" prefWidth="280.0" progress="0.59" />
+                  <TextField fx:id="field10" editable="false" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #FFFFCC; -fx-max-height: 30;">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TextField>
+               </children></HBox>
+            <HBox layoutX="10.0" layoutY="190.0" prefHeight="30.0" prefWidth="400.0">
+               <children>
+                  <ProgressBar fx:id="bar11" prefHeight="30.0" prefWidth="280.0" progress="0.48" />
+                  <TextField fx:id="field11" editable="false" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #FFFFCC; -fx-max-height: 30;">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TextField>
+               </children></HBox>
+            <HBox layoutX="10.0" layoutY="220.0" prefHeight="30.0" prefWidth="400.0">
+               <children>
+                  <ProgressBar fx:id="bar12" prefHeight="30.0" prefWidth="280.0" progress="0.1" />
+                  <TextField fx:id="field12" editable="false" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #FFFFCC; -fx-max-height: 30;">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </TextField>
+               </children></HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

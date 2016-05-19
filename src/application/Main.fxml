@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DicesController">
+   <children>
+      <Button layoutX="125.0" layoutY="209.0" mnemonicParsing="false" onAction="#dicesClicked" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #FFFFCC;" text="Roll Dice" textFill="#1bcd62">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="dice1" fitHeight="150.0" fitWidth="200.0" layoutX="50.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="dice2" fitHeight="150.0" fitWidth="200.0" layoutX="250.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="43.0" layoutY="288.0" text="Last rolls:" textFill="#1bcd62">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblLastRolls" layoutX="150.0" layoutY="276.0" prefHeight="51.0" prefWidth="312.0" text="10, 10, 11, 12, 12, 11, 10, 10" textFill="#1bcd62">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
